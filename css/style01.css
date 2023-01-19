@@ -265,7 +265,7 @@ article > a:hover {
     border: 1px solid var( --bg-cards);
     border-radius: 20px;
     width: 1000px;
-    height: 250px;
+    height: 200px;
     padding: 20px 20px 20px 20px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.500);
     position: absolute;
@@ -279,12 +279,55 @@ article > a:hover {
     border: 1px solid var ( --bg-cards);
     margin: 25px 5px 5px 5px;
     border-radius: 90px;  
-
 }
 
+#container-posts > p {
+    display: inline;
+    position: absolute;
+    top: 70px;
+    left: 180px;
+    width: 800px;
+    height: 30px;
+}
 /* Footer */ 
 
 footer {
     text-align: center;
     padding: 20px;
+}
+
+/* Página extras - Cards de Projetos */ 
+
+#container-pagina1, #container-pagina2 {
+    background-color: var( --bg-cards);
+    border: 1px solid var( --bg-cards);
+    border-radius: 20px;
+    width: 600px;
+    height: 600px;
+    text-align: justify;
+    margin: 60px 0 0 450px;
+    padding: 50px 20px 20px 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.500);
+}
+
+#container-pagina1 > h2, #container-pagina2 > h2 {
+    padding: 20px;
+    color: var(--bg-techs);
+}
+
+#container-pagina1 > p, #container-pagina2 > p {
+    padding: 20px;
+}
+
+#container-pagina1 > a, #container-pagina2 > a {
+    text-decoration: underline;
+    margin: 20px;
+    margin-top:;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+#container-pagina1 > a:hover, #container-pagina2 > a:hover {
+    color: var(--bg-techs);
+    font-weight: bold;
 }

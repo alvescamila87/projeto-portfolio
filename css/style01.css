@@ -15,7 +15,7 @@
     --bg-techs: #CB92B1;
 }
 
-/* Menu navegação */
+/* Menu navegação - Cards laterais */
 
 body {
     font-family: 'Merriweather Sans', sans-serif;
@@ -165,7 +165,21 @@ body {
     padding: 1px;
     font-size: 13px;
 }
-/* Conteúdo */
+
+/* Cores ícones dos arquivos .SVG - dos menu lateral */
+
+.filter-color, .filter-color2 {
+    filter: invert(49%) sepia(35%) saturate(264%) hue-rotate(209deg) brightness(98%) contrast(84%);
+}
+
+/* Cores ícones dos arquivos .SVG - dos cards de projeto*/
+
+.filter-color2 {
+    width: 15px;
+    height: 15px;
+}
+
+/* Conteúdo - Cards centrais de projetos */
 
 #container-projects {
     background-color: var( --bg-cards);
@@ -193,6 +207,7 @@ body {
 article > a {
     text-decoration: none;
     padding: 10px 10px 10px 10px;
+    color: var(--text-color);
 }
 
 #card1 {

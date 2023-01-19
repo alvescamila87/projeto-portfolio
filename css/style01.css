@@ -210,6 +210,11 @@ article > a {
     color: var(--text-color);
 }
 
+article > a:hover {
+    color: var(--bg-techs);
+    font-weight: bolder;
+}
+
 #card1 {
     background-color: var( --bg-cards);
     border: 1px solid var( --bg-cards);
@@ -221,7 +226,7 @@ article > a {
 }
 
 #card1 > p {
-    padding: 30px 10px 10px 10px;
+    padding: 30px 10px 30px 10px;
     text-align: justify;
 }
 
@@ -238,7 +243,7 @@ article > a {
 }
 
 #card2 > p {
-    padding: 30px 10px 10px 10px;
+    padding: 30px 10px 30px 10px;
     text-align: justify;
 }
 
